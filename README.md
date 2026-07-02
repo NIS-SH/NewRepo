@@ -1,28 +1,31 @@
-# Classic Omelette Recipe
+# Coding with AI Recipe Collection
 
-This repository contains a simple HTML recipe page for a classic omelette, along with styling for a clean and readable presentation.
+This repository contains a simple multi-page recipe website built with HTML and CSS. It includes a homepage with recipe links and individual pages for several recipes, all styled using a shared stylesheet.
 
 ## Files
 
-- `index.html` - Contains the recipe markup, including ingredients, preparation steps, and a short description.
-- `style.css` - Provides layout and visual styling for the recipe page.
+- `Homepage.html` - The landing page with the title "Coding with AI", a welcome message, recipe buttons, and the author name "Nishant Sharma".
+- `new.html` - The omelette recipe page.
+- `cake.html` - The cake recipe page.
+- `loli.html` - The chicken lollipop recipe page.
+- `biryani.html` - The biryani recipe page.
+- `style.css` - Shared styling for the homepage and all recipe pages.
 
-## Description
+## Features
 
-The page includes:
-
-- A recipe title and meta information for servings and timing.
-- An ingredients list.
-- A step-by-step cooking guide.
-- A tips section for better results.
+- A welcoming homepage for browsing recipes.
+- Recipe pages with clear sections for ingredients and steps.
+- A consistent navigation bar on each recipe page.
+- A return button to go back to the homepage.
+- Responsive styling for a clean and readable layout.
 
 ## Usage
 
-1. Open `index.html` in a web browser.
-2. Make sure `style.css` is in the same folder as `index.html`.
-3. The recipe page should display with a simple, responsive design.
+1. Open `Homepage.html` in a web browser to start from the homepage.
+2. Click any recipe button to open its page.
+3. Use the navigation bar or the return button to move between pages.
 
 ## Notes
 
-- The page is designed to be mobile-friendly with a responsive layout.
-- You can customize the ingredients and steps to create your own version of the recipe.
+- All pages use the shared stylesheet `style.css` for a consistent look.
+- The website is easy to extend by adding more recipes in the same format.
