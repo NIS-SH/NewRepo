@@ -17,6 +17,21 @@ h1 {
   margin-bottom: 0.25em;
 }
 
+.return-btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 8px 12px;
+  background: #3d2b1f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.return-btn:hover {
+  background: #5a3d2c;
+}
+
 .recipe-label {
   font-size: 1.1rem;
   font-weight: 700;
@@ -86,6 +101,73 @@ section {
   border-radius: 4px;
 }
 
+.homepage-container {
+  max-width: 760px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.homepage-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.homepage-header h1 {
+  margin-bottom: 8px;
+}
+
+.homepage-greeting {
+  font-size: 1.05rem;
+  color: #6b5e4d;
+  margin: 0;
+}
+
+.homepage-card {
+  background: #f9f4eb;
+  border: 1px solid #e0d6c8;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.homepage-card h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.recipe-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.recipe-btn {
+  display: inline-block;
+  text-align: center;
+  background: #3d2b1f;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.recipe-btn:hover {
+  background: #5a3d2c;
+  transform: translateY(-2px);
+}
+
+.homepage-footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #6b5e4d;
+  font-weight: 600;
+}
+
 @media (max-width: 640px) {
   body {
     padding: 16px;
@@ -93,5 +175,9 @@ section {
 
   section {
     padding: 14px;
+  }
+
+  .recipe-buttons {
+    grid-template-columns: 1fr;
   }
 }
