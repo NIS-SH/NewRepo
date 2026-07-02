@@ -1,6 +1,6 @@
 # Coding with AI Recipe Collection
 
-This repository contains a simple multi-page recipe website built with HTML and CSS. It includes a homepage with recipe links and individual pages for several recipes, all styled using a shared stylesheet.
+This repository contains a simple multi-page recipe website built with HTML and CSS. The entire code is written by AI with some tweaks by the developer. It includes a homepage with recipe links and individual pages for several recipes, all styled using a shared stylesheet.
 
 ## Files
 
